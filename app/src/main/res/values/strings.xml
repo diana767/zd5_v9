@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">zad5_rubtsova</string>
+    <string name="university_photo">University Photo</string>
+
+    <string-array name="spec_types">
+        <item>ПР(бюджет)</item>
+        <item>ПР(платное)</item>
+        <item>ПГС(бюджет)</item>
+        <item>ПГС(платное)</item>
+        <item>ДЗ(бюджет)</item>
+        <item>ДЗ(платное)</item>
+    </string-array>
+
+    <string-array name="Roles">
+        <item>Преподаватель</item>
+        <item>Студент</item>
+        <item>Министерство</item>
+    </string-array>
+</resources>

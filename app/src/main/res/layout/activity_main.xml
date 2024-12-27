@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <!-- Здесь можно объявить переменные для привязки данных -->
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/fon">
+
+        <Button
+            android:id="@+id/btnManageUniversities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Управление университетами"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:id="@+id/btnManageStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Управление студентами"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:id="@+id/btnManageTeachers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Управление преподавателями"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+</layout>

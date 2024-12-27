@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <!-- Здесь можно объявить переменные для привязки данных -->
+    </data>
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".UniversityActivity"
+        android:background="@drawable/fon">
+
+        <!-- Header Image or Logo -->
+        <ImageView
+            android:id="@+id/ivHeader"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header_image" /> <!-- Replace with your image resource -->
+
+        <!-- Search Bar -->
+        <EditText
+            android:id="@+id/etSearchUniversity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search University"
+            android:padding="16dp"
+            android:background="@drawable/edit_text_background" /> <!-- Optional background -->
+
+        <!-- Button to Add University -->
+        <Button
+            android:id="@+id/btnAddUniversity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add University"
+            android:layout_margin="16dp"
+            android:background="@drawable/button"/>
+
+        <!-- RecyclerView for displaying universities -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:clipToPadding="false" />
+
+    </LinearLayout>
+</layout>
